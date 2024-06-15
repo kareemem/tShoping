@@ -1,0 +1,266 @@
+header .pathLink h6{
+font-size: .8125rem;
+line-height: 1.1875rem;
+font-weight: 400;
+}
+header .pathLink h6 a{
+text-decoration: none;
+color: rgb(68, 68, 68);
+transition-duration: 0.5s;
+}
+header .pathLink h6 a:hover{
+    color: rgb(255, 40, 50) ;
+}
+header .pathLink h6 span{
+    color: rgb(34, 34, 34);
+}
+/* start owl slider */
+header .imgDetail .owl-nav
+{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: .625rem;
+    right: .625rem;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+header .imgDetail .owl-carousel .owl-nav button.owl-prev,
+header .imgDetail .owl-carousel .owl-nav button.owl-next
+{
+    font-size: 1rem;
+    font-weight: 100;
+    color: #000000;
+    
+}
+header .imgDetail .owl-carousel .owl-nav button,
+header .imgDetail .owl-carousel .owl-nav button
+{
+    background-color: #c8c8c8;
+    width: 20px;
+    transition-duration: 0.5s;
+    display: none;
+}
+header .imgDetail .owl-carousel
+{
+    transition-duration: 0.8s;
+}
+header .imgDetail .owl-carousel:hover button.owl-next,
+header .imgDetail .owl-carousel:hover button.owl-prev
+{
+    display: inline-block;
+}
+
+header .imgDetail .owl-carousel .owl-nav button:hover,
+header .imgDetail .owl-carousel .owl-nav button:hover
+{
+    background-color: #888888;
+    color: white;
+}
+
+/* contentDetails */
+.contentDetails .iconStar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.contentDetails .iconStar ul li i{
+    font-size: .9375rem;
+    color: rgb(239, 206, 74);
+    }
+    .contentDetails .iconStar span{
+        font-size: .875rem;
+        font-weight: 400;
+        color: rgb(136, 136, 136);
+        line-height: 1.25rem;
+        }
+        .contentDetails h2{
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.125rem;
+            color: rgb(34, 34, 34);
+            }
+            .contentDetails .features ul li{
+                font-size: .875rem;
+                font-weight: 400;
+                line-height: 1.25rem;
+                color: rgb(102, 102, 102);
+                }
+.contentDetails .priceProduct .price{
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+    color: rgb(34, 34, 34);
+    }
+    .contentDetails .priceProduct p{
+        font-size: .8125rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        color: rgb(102, 102, 102);
+        }
+        .contentDetails .priceProduct p span{
+            font-size: .8125rem;
+            font-weight: 700;
+            line-height: 1.75rem;
+            color: rgb(255, 40, 50);
+            }
+            .contentDetails .quantity p{
+                font-size: .8125rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                color: rgb(51, 51, 51);
+}
+.contentDetails .quantity .num{
+    font-size: .9375rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: rgb(255, 40, 50);
+    }
+.contentDetails .quantity i{
+    font-size: .9375rem;
+}
+.contentDetails .quantity .minus,.contentDetails .quantity .plus{
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+.contentDetails .quantity .minus:hover,.contentDetails .quantity .plus:hover{
+    background-color: rgb(255, 40, 50);
+    color: white;
+    border: none;
+}
+.contentDetails .buy .btn{
+    font-size: .875rem;
+    line-height: 2.125rem;
+    font-weight: 600;
+    color: #666666;
+    background-color: #f5f5f5;
+    transition-duration: 0.5s;
+}
+.contentDetails .buy .btn:hover{
+    color: white;
+    background-color: rgb(255, 40, 50);
+}
+.contentDetails .buy p{
+    font-size: .875rem;
+    font-weight: 400;
+    color: #666666;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.contentDetails .buy p:hover{
+    color: rgb(255, 40, 50);
+}
+/* additional */
+.additional ul li{
+    cursor: pointer;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    background-color: #f5f5f5;
+}
+.activeLi{
+    background-color: rgb(255, 40, 50) !important;
+    color: white !important;
+    transition-duration: 0.5s;
+}
+.additionalInformation,.reviews{
+    display: none;
+}
+
+.additional .desc p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+}
+.additional .additionalInformation p{
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+
+.additional .reviews label{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+.additional .reviews .form-control:focus{
+    box-shadow: rgba(255,40,50, 0.35) 0px 5px 15px;
+    border-color: rgb(255, 40, 50);
+}
+textarea {
+    resize: none;
+  }
+
+.additional .reviews .btn{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(255, 40, 50);
+    transition-duration: 0.5s;
+}
+.additional .reviews .btn:hover{
+    background-color: #333333;
+}
+
+/* sideBar */
+.sideBar .headF i{
+    font-size: 2.5rem;
+    color: rgb(255, 40, 50);
+}
+.sideBar .headF h6{
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: rgb(51, 51, 51);
+}
+.sideBar .headF span{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+.sideBar .headF p{
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(51, 51, 51);
+}
+
+.sideBar .popularProduct h6{
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: .9375rem;
+    color: rgb(34, 34, 34);
+}
+.sideBar .popularProduct img{
+    width: 85px;
+    border-color: #efefef !important;
+    transition-duration: 0.5s;
+}
+.sideBar .popularProduct img:hover{
+    border-color: rgb(255, 40, 50) !important;
+}
+.sideBar .popularProduct a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    transition-duration: 0.5s;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+.sideBar .popularProduct a:hover{
+    color: rgb(255, 40, 50);
+}
+.sideBar .popularProduct p{
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: rgb(34, 34, 34);
+}

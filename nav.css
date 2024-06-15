@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* start navbar */
+nav{
+    z-index: 999;
+}
+.bg-body-tertiary{
+    background-color: #444444 !important;
+    
+    }
+    nav a{
+        color:rgb(241, 241, 241) !important;
+        font-weight: 700;
+        font-size: .8125rem;
+        line-height: 1.1875rem;
+    }
+    .navIcon i{
+        background-color: rgb(255, 40, 50);
+    }
+    .navbar-toggler{
+        background-color: rgb(255, 40, 50) !important;
+    }
+    /* end navbar */

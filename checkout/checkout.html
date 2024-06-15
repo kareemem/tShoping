@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>e-commerce</title>
+        <!-- font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="../nav.css">
+        <link rel="stylesheet" href="checkout.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 start-0 end-0">
+            <div class="container-md">
+                <a class="navbar-brand navIcon mx-0" href="../home/home.html"><i class="fa-solid fa-house p-1"></i></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="../about/about.html"
+                                >ABOUT US</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../shop/shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../cart/cart.html">CART</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact/contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../register/register.html">REGISTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOGOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="min-vh-100 d-flex justify-content-center align-items-center container-md px-3 py-4">
+            <div class="w-100">
+                <h6><a href="../cart/cart.html">cart</a> <span> / check out</span></h6>
+                <h4 class="mt-4 pb-3 border-bottom">
+                    BILLING ADDRESS
+                </h4>
+                <form class="my-3">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <div class="w-100">
+                            <label for="name">name <sup>*</sup></label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="w-100 ms-2">
+                            <label for="phone">phone <sup>*</sup></label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <label for="address">address <sup>*</sup></label>
+                        <input type="text" id="address" class="form-control">
+                    </div>
+                </form>
+            </div>
+        </header>
+        <script src="../Bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="../jquery/jquery-3.7.0.min.js"></script>
+        <script src="checkout.js"></script>
+    </body>
+</html>

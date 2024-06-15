@@ -1,0 +1,294 @@
+.bgMain{
+    background-color: rgb(255, 40, 50);
+}
+header .owl-carousel .owl-nav button.owl-prev,header .owl-carousel .owl-nav button.owl-next{
+    font-size: 3.125rem;
+} 
+
+header .owl-nav{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: .625rem;
+    right: .625rem;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+header .owl-nav button{
+    color: #444444 !important;
+    transition-duration: 0.5s;
+}
+header .owl-nav button:hover{
+    color: rgb(255, 40,50) !important;
+}
+.contentSlider{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contentSlider{
+    background-color: rgb(255, 255, 255,0.5);
+}
+header img{
+    width: 100%;
+    height: 350px;
+}
+
+.contentSlider h2{
+    font-size: 2.1875rem;
+    line-height: 2.1875rem;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
+.contentSlider h2 span{
+    color: rgb(85, 85, 85);
+}
+.contentSlider p{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+.contentSlider h6{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+.contentSlider h6 span{
+    font-size: 1.5625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 40,50);
+}
+.contentSlider .btn{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(239, 245, 245);
+    background-color:rgb(255, 40,50) ;
+    transition-duration: 0.5s;
+}
+.contentSlider .btn:hover{
+    background-color: rgb(51, 51, 51);
+}
+header .layer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform: translate(-50%,-50%);
+    transition-duration: 0.7s;
+    background-color: rgb(68, 68, 68,0.5);
+}
+header .layerImg img{
+    height: 11.875rem;
+}
+header .layerImg:hover .layer{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1357px) {
+    .contentSlider h2{
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+    .contentSlider p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .contentSlider h6{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .contentSlider h6 span{
+        font-size: 1rem;
+        line-height: 1.01rem;
+    }
+    header img{
+        height: 190px;
+    }
+}
+
+/* section Offers */
+.offers .onSale{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.offers h3{
+font-size: .875rem;
+line-height: .875rem;
+font-weight: 700;
+color: rgb(254, 254, 254);
+}
+.offers .timer ul{
+    background-color: #f9f9f9;
+    width: fit-content;
+}
+.offers .timer ul li{
+    list-style-type: none;
+}
+.offers .timer ul li i{
+    font-size: 24px;
+    line-height: 21px;
+    color: #000000;
+}
+.offers .timer ul li span{
+    font-size: 13px;
+    line-height: 17px;
+    color: #666666;
+}
+.offers .timer ul li span b{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    color: #333333;
+}
+.offers .timer ul .dots{
+    font-size: 20px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #666666;
+}
+/* start all section slider */
+
+section .owl-carousel .owl-nav
+{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: .625rem;
+    right: .625rem;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+section .owl-carousel .owl-nav button.owl-prev,
+section .owl-carousel .owl-nav button.owl-next
+{
+    font-size: 1.875rem;
+    font-weight: 100;
+    color: #000000;
+    background-color: #c8c8c8;
+    width: 25px;
+}
+section .owl-carousel .owl-nav button
+{
+    transition-duration: 0.5s;
+    display: none;
+}
+section .owl-carousel .owl-nav button:hover
+{
+    background-color: #888888;
+    color: white;
+}
+section .owl-carousel
+{
+    transition-duration: 0.8s;
+}
+section .owl-carousel:hover button.owl-next,
+section .owl-carousel:hover button.owl-prev
+{
+    display: inline-block;
+}
+section .owl-carousel .parentContent{
+    transition-duration: 0.5s;
+}
+section .owl-carousel .parentContent:hover{
+    border: 1px solid rgb(255, 40, 50);
+}
+section .owl-carousel .parentContent span{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    z-index: 3;
+    background-color: rgb(255, 40, 50);
+    padding: 4px 8px;
+}
+section .owl-carousel .parentContent span::after{
+    content: ' ';
+    position: absolute;
+    bottom: -10px;
+    left: 3px;
+    width: 0;
+
+    border-top: 10px solid transparent;
+    border-left: 10px solid rgb(255, 40, 50);
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+section .owl-carousel .parentContent .parentImg{
+    overflow: hidden;
+    }
+section .owl-carousel .parentContent .parentImg .aHover{
+    transition-duration: 0.5s;
+    position: absolute;
+    bottom: 5%;
+    right: -100%;
+    text-decoration: none;
+    font-size: .8125rem;
+    line-height: 1.5625rem;
+    font-weight: 600;
+    color: white;
+    background-color: #000000;
+    transition-duration: 0.5s;
+}
+section .owl-carousel .parentContent:hover .aHover{
+    right: 0;
+}
+section .owl-carousel .parentContent .parentImg .aHover:hover{
+    background-color: rgb(255, 40, 50);
+}
+.imgHover{
+    width: 100%;
+}
+section .owl-carousel .parentContent .title .text{
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    color: #222222;
+    transition-duration: 0.5s;
+}
+section .owl-carousel .parentContent .title .text:hover{
+    color: rgb(255, 40, 50);
+}
+section .owl-carousel .parentContent .title .price{
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
+
+.latestProductsImgLayer .layerLift{
+    background-color: rgb(255, 255, 255,0.3);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.5s;
+}
+.latestProductsImgLayer:hover .layerLift{
+    left: 50%;
+}
+.latestProductsImgLayer .layerRight{
+    background-color: rgb(255, 255, 255,0.3);
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.5s;
+}
+.latestProductsImgLayer:hover .layerRight{
+    right: 50%;
+}
+.latestProducts .bgMain h3{
+    font-size: .875rem;
+    color: rgb(254, 254, 254);
+    font-weight: 700;
+    line-height: .875rem;
+}

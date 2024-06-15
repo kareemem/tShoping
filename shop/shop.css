@@ -1,0 +1,193 @@
+header h6{
+    font-size: .8125rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+}
+header h6 a{
+    text-decoration: none;
+    color:  rgb(68, 68, 68);
+    transition-duration: 0.5s;
+}
+header h6 a:hover{
+    color: rgb(255, 40, 50);
+}
+header h6 span{
+    color: rgb(34, 34, 34);
+}
+
+header .row .col-md-3 h2{
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: .9375rem;
+    color: rgb(34, 34, 34);
+}
+header .row .col-md-3 ul li{
+    list-style-type: none;
+    font-size: .875rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #444444;
+    transition-duration: color 0.5s;
+    cursor: pointer;
+}
+header .row .col-md-3 ul li:hover{
+    color: rgb(255, 40, 50);
+}
+header .row .col-md-3 ul li label,header .row .col-md-3 ul li input{
+    cursor: pointer;
+}
+input[type="radio"] {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: box-shadow 0.3s ease;
+    } 
+input[type="radio"]:checked {
+    box-shadow: 0 0 10px rgb(255, 40, 50);
+    background-color: rgb(255, 40, 50);
+    border: none;
+    
+}
+/* range */
+.range-slider {
+    height: 5px;
+    position: relative;
+    background-color: #e1e9f6;
+    border-radius: 2px;
+}
+.range-selected {
+    height: 100%;
+    left: 5%;
+    right: 90%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(229, 83, 76);
+}
+
+.range-input {
+    position: relative;
+}
+.range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -7px;
+    background: none;
+    pointer-events: none;
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    appearance: none;
+}
+.range-input input::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(229, 83, 76);
+    background-color: #fff;
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
+.range-input input::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid rgb(229, 83, 76);
+    background-color: #fff;
+    pointer-events: auto;
+    -moz-appearance: none;
+}
+
+.range-price p ,.range-price .btn{
+    font-size: .875rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+
+.range-price .btn{
+    color: rgb(102, 102, 102);
+    transition-duration: color 0.5s;
+}
+.range-price .btn:hover{
+    color: rgb(255, 40, 50);
+}
+/* size */
+.size label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    color: #555555;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    background-color: transparent;
+    border-color: #dddddd;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.size label:hover{
+    background-color: rgb(255, 40, 50);
+    border-color: rgb(255, 40, 50);
+    color: white;
+}
+
+.size input[type='radio']{
+    display: none;
+}
+.size input[type="radio"]:checked + label{
+    background-color: rgb(255, 40, 50) !important;
+    width: 45px;
+    height: 45px;
+    color: white;
+}
+
+/* ######### */
+img{
+    width: 15.625rem;
+    transition-duration: 0.5s;
+}
+
+.col-md-9 a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+    color: #444444;
+    font-weight: 400;
+    transition-duration: color 0.5s;
+}
+.col-md-9 a:hover{
+    color: rgb(255, 40, 50);
+}
+
+.col-md-9 p{
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: rgb(34, 34, 34);
+}
+
+.col-md-9 .btn{
+    font-size: .875rem;
+    line-height: 2.125rem;
+    color: #888888;
+    background-color: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    font-weight: 600;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.col-md-9 .btn:hover{
+    background-color: rgb(255, 40, 50);
+    border-color: rgb(255, 40, 50);
+    color: white;
+}
+.col-md-9 .content:hover img{
+    transform: scale(1.1,1.1);
+}

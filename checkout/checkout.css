@@ -1,0 +1,37 @@
+header h6{
+    font-size: .8125rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+}
+header h6 a{
+    text-decoration: none;
+    color:  rgb(68, 68, 68);
+    transition-duration: 0.5s;
+}
+header h6 a:hover{
+    color: rgb(255, 40, 50);
+}
+header h6 span{
+    color: rgb(34, 34, 34);
+}
+
+header h4{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+header form label{
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: rgb(85, 85, 85);
+}
+header form label sup{
+    color: rgb(255, 40, 50);
+}
+header .form-control:focus{
+    box-shadow: rgba(255,40,50, 0.35) 0px 5px 15px;
+    border-color: rgb(255, 40, 50);
+}

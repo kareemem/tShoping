@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>e-commerce</title>
+        <!-- font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="../nav.css">
+        <link rel="stylesheet" href="cart.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 start-0 end-0">
+            <div class="container-md">
+                <a class="navbar-brand navIcon mx-0" href="../home/home.html"><i class="fa-solid fa-house p-1"></i></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="../about/about.html"
+                                >ABOUT US</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../shop/shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">CART</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact/contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../register/register.html">REGISTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOGOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="container-md px-3 mt-5 py-4">
+            <h6><a href="../home/home.html">HOME</a> <span> / CART</span></h6>
+            <div class="my-2">
+                <h3>PRODUCTS NAME</h3>
+                <div class="mt-2">
+                    <div class="row my-2 pt-2 border-top">
+                        <div class="col-md-6 mt-1 p-2 d-flex justify-content-start align-items-center">
+                            <img src="../img test/digital_17.jpg" alt="img product">
+                            <div class="ms-3">
+                                <a href="../details/details.html">
+                                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-1 p-2 d-flex justify-content-between align-items-center">
+                            <div class="price">
+                                <p>$256.00</p>
+                            </div>
+                            <div class="quantity">
+                                <div class="border shadow text-center py-1 px-2 rounded-2">
+                                    <p class="num d-inline-block m-0">5</p>
+                                    <p class="minus ms-3 d-inline-block m-0 rounded-circle border p-1"><i class="fa-solid fa-minus"></i></p>
+                                    <p class="plus d-inline-block ms-1 border rounded-circle p-1 m-0"><i class="fa-solid fa-plus"></i></p>
+                                </div>
+                            </div>
+                            <div class="totalPrice">
+                                <p>$256.00</p>
+                            </div>
+                            <div class="delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-2 pt-2 border-top">
+                        <div class="col-md-6 p-2 mt-1 d-flex justify-content-start align-items-center">
+                            <img src="../img test/digital_17.jpg" alt="img product">
+                            <div class="ms-3">
+                                <a href="../details/details.html">
+                                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-2 mt-1 d-flex justify-content-between align-items-center">
+                            <div class="price">
+                                <p>$256.00</p>
+                            </div>
+                            <div class="quantity">
+                                <div class="border shadow text-center py-1 px-2 rounded-2">
+                                    <p class="num d-inline-block m-0">3</p>
+                                    <p class="minus ms-3 d-inline-block m-0 rounded-circle border p-1"><i class="fa-solid fa-minus"></i></p>
+                                    <p class="plus d-inline-block ms-1 border rounded-circle p-1 m-0"><i class="fa-solid fa-plus"></i></p>
+                                </div>
+                            </div>
+                            <div class="totalPrice">
+                                <p>$256.00</p>
+                            </div>
+                            <div class="delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="my-4 container-md">
+            <div>
+                <div class="p-3 border bgMain">
+                    <h4>
+                        ORDER SUMMARY
+                    </h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <div class="py-3 border-bottom border-top">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p>Subtotal</p>
+                                        <p class="typeRequest">$512.00</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p>Shipping</p>
+                                        <p class="typeRequest">
+                                            Free Shipping
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>total</p>
+                                    <p class="typeRequest">$512</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-auto">
+                            <div class="ms-2">
+                                <div>
+                                    <a href="../checkout/checkout.html" class="btn w-100">Check out</a>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <a href="../home/home.html">Continue Shopping <i class="fa-solid fa-arrow-right rounded-circle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../Bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="../jquery/jquery-3.7.0.min.js"></script>
+        <script src="cart.js"></script>
+    </body>
+</html>
