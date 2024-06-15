@@ -246,6 +246,7 @@ section .owl-carousel .parentContent .parentImg .aHover:hover{
     width: 100%;
 }
 section .owl-carousel .parentContent .title .text{
+    text-decoration: none;
     font-size: .8125rem;
     font-weight: 400;
     line-height: 1.125rem;
